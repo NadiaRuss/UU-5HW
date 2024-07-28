@@ -1,0 +1,79 @@
+@import url("./var.css");
+
+.reg_img {
+  width: 60%;
+}
+.reg_form {
+  display: flex;
+  justify-content: center;
+}
+.theme {
+  display: none;
+}
+.theme_label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+  margin: 10px;
+  padding: 10px;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reg_form label[for="dark"]:hover {
+  background-color: #212534;
+  color: #fff;
+  transition: 0.2s;
+}
+.registration {
+  position: relative;
+  top: 250px;
+  left: -140px;
+  background-color: var(--default-bg);
+  color: var(--default-color);
+  border-radius: 10px 0 0 10px;
+  width: 300px;
+  height: 320px;
+  padding: 30px;
+  text-align: center;
+}
+.card_form {
+  position: relative;
+  top: 250px;
+  left: -140px;
+  background-color: var(--default-var);
+  color: var(--default-color);
+  border: 2px solid var(--default-bg);
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+}
+select, input{
+    padding: 3px;
+}
+.registration h2{
+  margin-top: 20px;
+}
+.radio_inline {
+  margin-right: 10px;
+}
+.card_arrow {
+  margin: 20px auto;
+}
+.submit {
+  margin-top: 20px;
+  padding: 6px 2px;
+  font-size: 16px;
+}
+.submit:hover,
+input:hover,
+.theme_label:hover,
+select:hover 
+{
+  outline: 2px solid #0ebffa;
+}

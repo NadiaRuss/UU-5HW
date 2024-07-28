@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашняя работа</title>
+    <link rel="stylesheet" href="./css/radio.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    <div class="reg_form">
+      <input class="theme" id="dark" type="radio" name="theme" value="dark" />
+      <label class="theme_label" for="dark">Темная</label>
+      <input class="theme" id="light" type="radio" name="theme" value="light" checked />
+      <label class="theme_label" for="light">Светлая</label>
+        <div class="registration">
+          <img class="reg_img" src="3666991.png" alt="human" />
+          <h2>Регистрация</h2>
+        </div>
+          <form class="card_form" method="post" action="">
+            <div class="card_arrow">
+              <label for="name">Имя</label>
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div class="card_arrow">
+              <div class="radio">
+                <span>Пол</span><br />
+                <label class="radio_inline">
+                  <input type="radio" name="sex" value="мужской" />мужской
+                </label>
+                <label class="radio_inline">
+                  <input type="radio" name="sex" value="женский" />женский
+                </label>
+              </div>
+            </div>
+            <div class="card_arrow">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" name="email" required />
+            </div>
+            <div class="card_arrow">
+              <label for="country">Страна</label>
+              <select id="country" name="country">
+                <option>Выберите страну проживания</option>
+                <option value="RU">Россия</option>
+                <option value="UA">Украина</option>
+                <option value="BY">Беларусь</option>
+              </select>
+            </div>
+            <button class="submit" type="submit">Отправить</button>
+          </form>
+      </div>
+    </div>
+  </body>
+</html>

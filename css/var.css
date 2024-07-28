@@ -1,0 +1,13 @@
+:root {
+    --default-bg: rgba(0, 0, 0, 0.5);
+    --default-color: #fff;
+    --default-var: #d79d9d;
+  
+    --light-mode-bg: rgb(42, 99, 165);
+    --light-mode-color: #212534;
+    --light-var: #fff;
+  
+    --dark-mode-bg: #212534;
+    --dark-mode-color: #fff;
+    --dark-var: rgb(42, 99, 165);
+  }
