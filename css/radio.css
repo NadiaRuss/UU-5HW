@@ -1,19 +1,19 @@
 @import url('./var.css');
 
-.reg_form input[type='radio'][id='dark']:checked ~ .registration {
+.reg-form input[type='radio'][id='dark']:checked ~ .registration {
     --default-bg: var(--dark-mode-bg);
     --default-color: var(--dark-mode-color);
   }
-  .reg_form input[type='radio'][id='light']:checked ~ .registration {
+  .reg-form input[type='radio'][id='light']:checked ~ .registration {
     --default-bg: var(--light-mode-bg);
     --default-color: var(--light-mode-color);
   }
-  .reg_form input[type='radio'][id='dark']:checked ~ .card_form {
+  .reg-form input[type='radio'][id='dark']:checked ~ .card-form {
     --default-bg: var(--dark-mode-bg);
     --default-var: var(--dark-var);
     --default-color: var(--dark-mode-color);
   }
-  .reg_form input[type='radio'][id='light']:checked ~ .card_form {
+  .reg-form input[type='radio'][id='light']:checked ~ .card-form {
     --default-bg: var(--light-mode-bg);
     --default-var: var(--light-var);
     --default-color: var(--light-mode-color);

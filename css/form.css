@@ -1,16 +1,16 @@
 @import url("./var.css");
 
-.reg_img {
+.reg-img {
   width: 60%;
 }
-.reg_form {
+.reg-form {
   display: flex;
   justify-content: center;
 }
 .theme {
   display: none;
 }
-.theme_label {
+.theme-label {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@
   transition: 0.2s;
 }
 
-.reg_form label[for="dark"]:hover {
+.reg-form label[for="dark"]:hover {
   background-color: #212534;
   color: #fff;
   transition: 0.2s;
@@ -43,7 +43,7 @@
   padding: 30px;
   text-align: center;
 }
-.card_form {
+.card-form {
   position: relative;
   top: 250px;
   left: -140px;
@@ -59,10 +59,10 @@ select, input{
 .registration h2{
   margin-top: 20px;
 }
-.radio_inline {
+.radio-inline {
   margin-right: 10px;
 }
-.card_arrow {
+.card-arrow {
   margin: 20px auto;
 }
 .submit {

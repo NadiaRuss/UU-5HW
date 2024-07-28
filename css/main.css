@@ -7,13 +7,13 @@
 }
 
 @font-face {
-  font-family: 'my_font';
+  font-family: 'my-font';
   src: url('../font/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf')
     format('truetype');
 }
 
 body {
-  font-family: 'my_font';
+  font-family: 'my-font';
   font-weight: 400;
   font-size: 16px;
 }
